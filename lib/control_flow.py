@@ -81,7 +81,8 @@ def calculator(operation, num1, num2):
         else:
             return "Division by zero is not allowed."
     else:
-        return "Invalid operation!"
+        print("Invalid operation!")
+        return None
     
 
 result = calculator("+", 5, 2)
